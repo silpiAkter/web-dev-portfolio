@@ -117,3 +117,63 @@ nav li a{
     margin-bottom: -28px;
     margin-right: 70px;
 }
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+
+.section-title, .title, .footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about{
+    max-width: 827px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 131px 156px;
+    margin: 130px 0px;
+}
+.about-content{
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 2px solid;
+    padding: 0px 10px;
+
+}
+
+.section-subtitle{
+    margin: 30px 0px;color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.item-title{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.item-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
