@@ -304,3 +304,88 @@ nav li a{
 .ftr-btn{
     margin-top: 20px;
 }
+
+@media screen and (max-width:576px) {
+    .navbar{
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 20px;
+        gap: 20px;
+    }
+    ul li{
+        
+        margin-right: 15px;
+        
+    }
+    .header{
+        background-size: 100px, 100%;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px 30px;
+        padding: 25px 0px;
+    }
+    .banner-content{
+        margin: 20px 15px;
+        width: 100%;
+    }
+    .about{
+        margin: 20px;
+        padding: 50px 30px ;
+    }
+    .about-items, .skills-container, .footer{
+        flex-direction: column;
+    }
+    .resume{
+       flex-direction: column;
+       padding: 30px;
+       gap: 30px;
+    }
+    .title{
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding: 30px;
+        gap: 50px;
+    }
+    .text, .email, .textarea{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar{
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 20px;
+        gap: 20px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px 30px;
+        padding: 25px 0px;
+    }
+    .about{
+        margin: 20px;
+        padding: 50px ;
+    }
+    .skills-container{
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    .resume{
+        flex-direction: column;
+        padding: 50px;
+        gap: 30px;
+     }
+     .footer{
+        /* flex-direction: column; */
+        padding: 50px 30px;
+        gap: 30px;
+    }
+    .text, .email, .textarea{
+        width: 75%;
+    }
+    
+}
