@@ -177,3 +177,19 @@ nav li a{
     letter-spacing: 0%;
     text-align: center;
 }
+
+/* What I do Styles */
+.what-i-do{
+    margin: 0 auto;
+    right: 345px;
+    left: 345px;
+    text-align: center;
+    
+}
+.what-i-do-content{ 
+    max-width: 900px;
+    top: 100px;
+    padding: 0px 30px;
+    text-align: center;
+    margin: 0 auto;
+}
