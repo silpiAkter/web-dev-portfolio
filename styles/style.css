@@ -277,6 +277,7 @@ nav li a{
     padding: 30x 0px;
 }
 /* footer related styles */
+
 .footer{
     display: flex;
     gap: 150px;
